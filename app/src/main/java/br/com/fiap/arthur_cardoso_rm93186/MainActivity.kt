@@ -13,6 +13,10 @@ import br.com.fiap.arthur_cardoso_rm93186.viewmodel.TipsAdapter
 import br.com.fiap.arthur_cardoso_rm93186.viewmodel.TipsViewModel
 import br.com.fiap.arthur_cardoso_rm93186.viewmodel.TipsViewModelFactory
 
+//Equipe
+// Arthur de Mesquita Cardoso RM 93186
+// Rodrigo Costa Ronchi RM 93262
+
 class MainActivity : AppCompatActivity() {
     private lateinit var viewModel: TipsViewModel
 
