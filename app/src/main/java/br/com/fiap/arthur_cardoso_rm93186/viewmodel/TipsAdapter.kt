@@ -31,7 +31,7 @@ class TipsAdapter (private val onItemClicked: (TipModel) -> Unit): RecyclerView.
 
             description.text = tip.description
 
-            item.setOnClickListener {Toast.makeText(itemView.context, tip.title, Toast.LENGTH_SHORT).show()}
+            item.setOnClickListener {Toast.makeText(itemView.context,"Título: ${tip.title}\nDescrição: ${tip.description}", Toast.LENGTH_LONG).show()}
         }
     }
 
